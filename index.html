@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(4, 67, 31);
+        }
+            .container{
+                background-color: rgb(39, 182, 89);
+                width:30%;
+                margin:auto;
+                padding:1% 2%;
+                border-radius:20px;
+            }
+            .form-field input,.form-field select{
+                width:90%;
+                padding:10px;
+    border-radius: 20px;
+            }
+            button{
+                background-color: green;
+                color: white;
+                border:none;
+                padding:10px;
+                width:45%;
+                border-radius: 10px;
+                font-size: 1.3rem;
+            }
+    </style>
+</head> 
+<body>
+    <form class="container" action="">
+        <h1>Register</h1>
+    <p class="form-field">
+<input type="text"  placeholder="Enter your name" required/>
+</p>
+<p class="form-field">
+    <input type="email" placeholder="Enter email id" required/>
+    </p>
+    <p class="form-field">
+        <input type="password" placeholder="Enter password" required/>
+        </p>
+        <p class="form-field">
+            <input type="date" placeholder="enter date" required/>
+        </p> 
+        <p class="form-radio">
+            <input type="radio" name="gender"/>male
+            <input type="radio" name="gender"/>female
+            <input type="radio" name="gender"/>other
+        </P>
+        <P class="form-field">
+            <select required>
+                <option value="">select your state</option>
+                <option value="">AP</option>
+                <option value="">TS</option>
+                <option value="">MH</option>
+                <option value="">BR</option>
+                <option value="">UP</option>
+                <option value="">HR</option>
+                <option value="">DL</option>
+                <option value="">MB</option>
+            </select>
+        </P>
+        <p class="form-field">
+            <input type="file">
+        </p>
+        <p class="form-field">
+            <input type="number" placeholder="Enter your age"/>
+        </p>
+            <button>
+            submit 
+            </button>
+    </form>
+</body>
+</html>
+
